@@ -29,12 +29,12 @@ const Footer = () => {
               <li>About</li>
             </NavLink>
 
-            <NavLink onClick={() => setVisible(false)} to="/delivery">
-              <li>Delivery</li>
+            <NavLink onClick={() => setVisible(false)} to="/orders">
+              <li>Order</li>
             </NavLink>
 
-            <NavLink onClick={() => setVisible(false)} to="/privacy_policy">
-              <li>Privacy policy</li>
+            <NavLink onClick={() => setVisible(false)} to="/contact">
+              <li>Cotact</li>
             </NavLink>
           </ul>
         </div>
